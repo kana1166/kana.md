@@ -10,6 +10,27 @@
 
 
 ## スキル
+#### AWS
+
+VPC | S3 | EC2 | Route 53 | IAM | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | CloudFormation | SSM | CLI | Secrets Manager | EIP | NAT Gateway | Router|
+Security Group |
+
+### 言語
+
+JavaScript | TypeScript | Python | PHP | JavaScript | TypeScript
+
+### フレームワーク等
+
+React | Django | FastAPI | Laravel | Vue.js | Next.js
+
+### RDB/NoSQL
+
+MySQL | PostgreSQL | Aurora
+
+### その他
+
+GitHub | Docker | supabase | Firebase | Vercel
+
 
 ## 取得資格
 
@@ -75,20 +96,7 @@ Python
 ### 企業ホームページの刷新【Next.js/WordPress REST API/AWS】(2023/11/10~2024/1/15)
 
 【担当業務】フロントの一部と納品前のテスト環境を構築
-AWS EC2 インスタンスへのデプロイを担当しました。さらに、AWS の各種サービス（ALB、EIP、VPC、セキュリティグループなど）を一から構築し、納品前のテスト環境を一人で構築しました
 
-- AWS EC2 インスタンスへのテスト環境のデプロイ
-  　 Linux のアップデートを実施し、その後 SSH 経由で GitHub からコードをプルしてアプリケーションをデプロイ
-- ALB（Application Load Balancer）を利用したトラフィックの負荷分散設定
-  　現在は EC2 インスタンス 1 台のみで構成されていますが、将来的なスケーラビリティを考慮し、ALB を設定
-- EIP（Elastic IP）を用いた固定 IP アドレスの設定と外部アクセスの確保
-  　 EIP を使用して、EC2 インスタンスの IP アドレスを固定化し、停止・再起動後も同一の IP アドレスで外部アクセスを確保
-- VPC（Virtual Private Cloud）の設計と構築
-  　デフォルト設定の ACL（Access Control List）を使用し、セキュリティグループで細かいアクセス制御を実施
-- EC2 単体でアプリケーションの安定性を確保するため、プロセスの自動再起動とマルチプロセス処理が可能な PM2 を採用しました。ALB を導入することで将来のスケーラビリティと可用性に対応しつつ、インスタンスのリソースを最大限に活用できる構成を構築しました。PM2 のプロセス管理により、手動介入を減らし運用効率を向上させました。
-
-【発揮したバリュー】
-AWS EC2 へのテスト環境のデプロイを行い、サーバー管理スキルを向上させました。また、ALB を使用した負荷分散設定、EIP による固定 IP アドレスの設定、VPC とセキュリティグループの構築を通じて、テスト環境においてセキュリティと可用性を確認しました。
 
 ### Instagram 自動返信アプリの作成【React】
 
@@ -107,26 +115,13 @@ Instagram の自動返信機能を提供するアプリの開発
 フロントエンド: React
 データベース: Supabase
 
-今後の予定:
-試験後にリファクタリングを実施予定。
-
-【発揮したバリュー】
-
-- 新しい問題形式に対応するため、短期間でクイズアプリを構築し、試験に向けた効果的な学習環境を提供。
-- Supabase とのデータベース連携を効率的に実装し、クイズデータの動的な操作を実現。
-- 迅速な環境構築と開発を実現し、試験に向けた十分な準備期間を確保。
-
 ### 学習管理アプリの開発【Laravel,inertia,,vue.js,Next.js】
-
-目的:新しい言語に慣れるため
 
 【構成】
 
 - フロントエンド: Next.js
 - 管理者ページ: Vue.js で管理者専用ページ
 - バックエンド: Laravel を利用し、安定したデータ処理と API 連携を実現。
-
-開発環境: Sail を使用し、Docker を用いて依存関係と開発環境を管理
 
 ## 会議室予約システム【Next.js,FastAPI,AWS,Docker】
 
@@ -160,30 +155,6 @@ Next.js の pages を使用して自己紹介ページを作成し、microCMS �
 microCMS 操作: ブログの取得だけでなく、削除、作成、更新が可能な機能を実装。
 認証認可機能: Firebase を使用して、ユーザー認証と認可機能を追加し、セキュアなアクセス制御を実現。
 
-【発揮したバリュー】
-microCMS を活用し、柔軟なコンテンツ管理を実現。管理者がブログを効率的に管理できる環境を提供。
-Firebase による認証機能を実装することで、セキュアで使いやすいユーザー認証を実現し、データの保護とアクセス管理の精度を向上。
-
-#### AWS
-
-VPC | S3 | EC2 | Route 53 | IAM | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | CloudFormation | SSM | CLI | Secrets Manager | EIP | NAT Gateway | Router|
-Security Group |
-
-### 言語
-
-JavaScript | TypeScript | Python | PHP | JavaScript | TypeScript
-
-### フレームワーク等
-
-React | Django | FastAPI | Laravel | Vue.js | Next.js
-
-### RDB/NoSQL
-
-MySQL | PostgreSQL | Aurora
-
-### その他
-
-GitHub | Docker | supabase | Firebase | Vercel
 
 ## ルビコン塾での AWS 実践的トレーニング
 
